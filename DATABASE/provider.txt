@@ -1,0 +1,3 @@
+"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=E:\vb project files\database\liberary.mdb"
+"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\Allen\Desktop\LAIBRARY MANAGEMENT\database\liberary.mdb"
+"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\alanjoseph\Desktop\LAIBRARY MANAGEMENT\DATABASE\liberary.mdb"
