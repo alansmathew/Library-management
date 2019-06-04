@@ -1,0 +1,372 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+liberarymanagement
+</name>
+</assembly>
+<members>
+<member name="T:liberary_management.liberaryDataSet3.Book_DetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3.loginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3.Book_DetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3.loginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3.Book_DetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3.loginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3TableAdapters.Book_DetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3TableAdapters.loginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(liberary_management.liberaryDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(liberary_management.liberaryDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(liberary_management.liberaryDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet3TableAdapters.TableAdapterManager.UpdateAll(liberary_management.liberaryDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet.Book_DetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet.staffloginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet.studentloginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet.Book_DetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet.staffloginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet.studentloginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet.Book_DetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet.staffloginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet.studentloginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSetTableAdapters.Book_DetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSetTableAdapters.staffloginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSetTableAdapters.studentloginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(liberary_management.liberaryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(liberary_management.liberaryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(liberary_management.liberaryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:liberary_management.liberaryDataSetTableAdapters.TableAdapterManager.UpdateAll(liberary_management.liberaryDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:liberary_management.liberaryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:liberary_management.liberaryDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2.Book_DetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2.staffloginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2.studentloginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2.Book_DetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2.staffloginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2.studentloginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2.Book_DetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2.staffloginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2.studentloginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2TableAdapters.Book_DetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2TableAdapters.staffloginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2TableAdapters.studentloginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(liberary_management.liberaryDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(liberary_management.liberaryDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(liberary_management.liberaryDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet2TableAdapters.TableAdapterManager.UpdateAll(liberary_management.liberaryDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1.Book_DetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1.staffloginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1.studentloginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1.Book_DetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1.staffloginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1.studentloginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1.Book_DetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1.staffloginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1.studentloginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1TableAdapters.Book_DetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1TableAdapters.staffloginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1TableAdapters.studentloginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(liberary_management.liberaryDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(liberary_management.liberaryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(liberary_management.liberaryDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:liberary_management.liberaryDataSet1TableAdapters.TableAdapterManager.UpdateAll(liberary_management.liberaryDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:liberary_management.liberaryDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:liberary_management.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:liberary_management.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:liberary_management.My.Resources.Resources.icons8_bank_cards_filled_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:liberary_management.My.Resources.Resources.icons8_home_filled_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:liberary_management.My.Resources.Resources.icons8_key_100">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:liberary_management.My.Resources.Resources.icons8_magazine_filled_50">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:liberary_management.My.Resources.Resources.icons8_megaphone_26">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:liberary_management.My.Resources.Resources.icons8_search_26">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:liberary_management.My.Resources.Resources.icons8_shutdown_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:liberary_management.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
